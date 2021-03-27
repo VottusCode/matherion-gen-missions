@@ -1,0 +1,21 @@
+{
+  "name": "matherion-gen-missions",
+  "description": "Generates Java code for Missions from a JSON",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "Mia <vottus@vott.us>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsnd src/index.ts",
+    "start": "node .",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "snake-case": "^3.0.4",
+    "string-similarity": "^4.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.37",
+    "@types/string-similarity": "^4.0.0"
+  }
+}
